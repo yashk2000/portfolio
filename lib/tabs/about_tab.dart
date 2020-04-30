@@ -1,6 +1,8 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio/config/assets.dart';
 import 'package:portfolio/config/constants.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'dart:html' as html;
 
 import '../widgets/theme_inherited_widget.dart';
@@ -11,7 +13,7 @@ class AboutTab extends StatelessWidget {
     return SingleChildScrollView(
       child: Center(
         child: Padding(
-          padding: const EdgeInsets.only(bottom: 16.0),
+          padding: const EdgeInsets.all(16.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
@@ -30,13 +32,32 @@ class AboutTab extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                'Member and mentor @amFOSS \nStudent at Amrita Vishwa Vidyapeetham \nAndroid Developer | Flutter | Computer Vision',
+                'Member and mentor @amFOSS\nComputer Vision | Flutter | Android Developer',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
               ),
               SizedBox(
-                height: 40,
+                height: 10,
+              ),
+              Center(
+                child: new InkWell(
+                    child: new Text(
+                      'Checkout my Curriculum Vitae',
+                      style: TextStyle(
+                        color: Colors.blue,
+                        fontSize: 16,
+                        //fontWeight: FontWeight.bold,
+                        fontFamily: 'OpenSans',
+                      ),
+                      textScaleFactor: 2,
+                      textAlign: TextAlign.center,
+                    ),
+                    onTap: () =>
+                        launch('https://yashk2000.github.io/docs/cv.pdf')),
+              ),
+              SizedBox(
+                height: 30,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -48,8 +69,8 @@ class AboutTab extends StatelessWidget {
                         height: 20,
                         child: Image.asset(Assets.github)),
                     label: Text('Github'),
-                    onPressed: () => html.window
-                        .open(Constants.PROFILE_GITHUB, 'yashk2000'),
+                    onPressed: () =>
+                        html.window.open(Constants.PROFILE_GITHUB, 'yashk2000'),
                   ),
                   FlatButton.icon(
                     icon: SizedBox(
@@ -57,8 +78,8 @@ class AboutTab extends StatelessWidget {
                         height: 20,
                         child: Image.asset(Assets.gitlab)),
                     label: Text('GitLab'),
-                    onPressed: () => html.window
-                        .open(Constants.PROFILE_GITLAB, 'yashk2000'),
+                    onPressed: () =>
+                        html.window.open(Constants.PROFILE_GITLAB, 'yashk2000'),
                   ),
                   FlatButton.icon(
                     icon: SizedBox(
@@ -66,8 +87,8 @@ class AboutTab extends StatelessWidget {
                         height: 20,
                         child: Image.asset(Assets.wordpress)),
                     label: Text('Wordpress'),
-                    onPressed: () => html.window
-                        .open(Constants.PROFILE_WORDPRESS, 'yash2k'),
+                    onPressed: () =>
+                        html.window.open(Constants.PROFILE_WORDPRESS, 'yash2k'),
                   )
                 ],
               ),
@@ -103,7 +124,11 @@ class AboutTab extends StatelessWidget {
                         .open(Constants.PROFILE_LINKEDIN, 'yashk2000'),
                   )
                 ],
-              )
+              ),
+              SizedBox(height: 120),
+              Align(
+                  alignment: Alignment.bottomCenter,
+                  child: Text("Made with Flutter"))
             ],
           ),
         ),

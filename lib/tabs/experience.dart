@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/models/experience_main_page.dart';
 
 class ExperienceTab extends StatefulWidget {
   @override
@@ -6,7 +7,6 @@ class ExperienceTab extends StatefulWidget {
 }
 
 class _ExperienceTabState extends State<ExperienceTab> {
-
   @override
   void initState() {
     super.initState();
@@ -14,6 +14,9 @@ class _ExperienceTabState extends State<ExperienceTab> {
 
   @override
   Widget build(BuildContext context) {
-      return Text("Will Contain Experince");
-    }
+    return new Scaffold(
+        body: new Container(
+      child: new ExperienceMainPage(),
+    ));
+  }
 }

@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 class MainPage extends StatelessWidget {
   const MainPage({
     Key key,
@@ -25,7 +26,9 @@ class MainPage extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Yash Khare',
-      theme:ThemeSwitcher.of(context).isDarkModeOn?darkTheme(context):lightTheme(context),
+      theme: ThemeSwitcher.of(context).isDarkModeOn
+          ? darkTheme(context)
+          : lightTheme(context),
       home: HomePage(),
     );
   }

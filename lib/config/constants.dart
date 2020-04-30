@@ -1,4 +1,4 @@
-class Constants{
+class Constants {
   static const PROFILE_WORDPRESS = 'https://yash2k.wordpress.com/';
   static const PROFILE_LINKEDIN = 'https://www.linkedin.com/in/yashk2000/';
   static const PROFILE_GITLAB = 'https://gitlab.com/yashk2000';
