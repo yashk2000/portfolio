@@ -12,7 +12,7 @@ final List<Experience> experiences = [
           '- Mobile Application Developer\n\n'
           '- Studying Computer Vision\n\n'
           '- Part of the Content Writing team\n\n'
-          '- Helped in rganizing several events\n\n'),
+          '- Helped in organizing several events\n\n'),
   new Experience(
       jobTitle: 'Intern',
       company: 'Defence Research and Development Organization(DRDO)',
