@@ -5,7 +5,7 @@ final List<Experience> experiences = [
   new Experience(
       jobTitle: 'Member and Mentor',
       company: 'amFOSS',
-      date: 'Since July 2018',
+      date: 'Since Jul\'18',
       color: Colors.orange,
       active: true,
       description: '- Organized several events\n\n'
@@ -16,7 +16,7 @@ final List<Experience> experiences = [
   new Experience(
       jobTitle: 'Intern',
       company: 'Defence Research and Development Organization(DRDO)',
-      date: 'November 2019 - December 2019  ',
+      date: 'Nov\'19 - Dec\'19  ',
       color: Colors.cyan,
       active: false,
       description:
@@ -24,7 +24,7 @@ final List<Experience> experiences = [
   new Experience(
       jobTitle: 'Mentor',
       company: 'Google Code-In',
-      date: 'November 2019 - January 2020',
+      date: 'Nov\'19 - Jan\'20',
       color: Colors.yellow,
       active: false,
       description:
@@ -32,7 +32,7 @@ final List<Experience> experiences = [
   new Experience(
       jobTitle: 'Intern',
       company: 'FOSSASIA',
-      date: 'May 2019 - August 2019',
+      date: 'May\'19 - Aug\'19',
       color: Colors.red,
       active: false,
       description:
@@ -43,14 +43,14 @@ final List<Experience> experiences = [
   new Experience(
       jobTitle: 'Campus Expert',
       company: 'GitHub',
-      date: 'Since August 2019',
+      date: 'Since Aug\'19',
       color: Colors.lightGreenAccent,
       active: false,
       description:
           'As GitHub Campus Expert, I receive training and mentorship from GitHub employees and support to help in the growth the developer community on my campus.\n\n'),
   new Experience(
       jobTitle: 'Open Source Contributor',
-      date: 'Since November 2018',
+      date: 'Since Nov\'18',
       color: Colors.deepPurple,
       active: false,
       description:
