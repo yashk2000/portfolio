@@ -85,10 +85,10 @@ class AboutTab extends StatelessWidget {
                     icon: SizedBox(
                         width: 20,
                         height: 20,
-                        child: Image.asset(Assets.wordpress)),
-                    label: Text('Wordpress'),
+                        child: Image.asset(Assets.blog)),
+                    label: Text('Blog'),
                     onPressed: () =>
-                        html.window.open(Constants.PROFILE_WORDPRESS, 'yash2k'),
+                        html.window.open(Constants.PROFILE_BLOG, 'yash2k'),
                   )
                 ],
               ),

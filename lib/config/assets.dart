@@ -5,7 +5,7 @@ class Assets {
   static const github = 'assets/github.png';
   static const instagram = 'assets/instagram.png';
   static const linkedin = 'assets/linkedin.png';
-  static const wordpress = 'assets/wordpress.jpg';
+  static const blog = 'assets/blog.png';
   static const twitter = 'assets/twitter.png';
   static const cms = 'assets/works/cms.png';
   static const tweegenous = 'assets/works/tweegenous.png';

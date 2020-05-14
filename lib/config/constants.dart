@@ -1,5 +1,5 @@
 class Constants {
-  static const PROFILE_WORDPRESS = 'https://yash2k.wordpress.com/';
+  static const PROFILE_BLOG = 'https://yashk2000.github.io/blog/';
   static const PROFILE_LINKEDIN = 'https://www.linkedin.com/in/yashk2000/';
   static const PROFILE_GITLAB = 'https://gitlab.com/yashk2000';
   static const PROFILE_GITHUB = 'https://github.com/yashk2000/';
