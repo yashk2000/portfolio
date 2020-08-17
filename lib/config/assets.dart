@@ -22,4 +22,5 @@ class Assets {
   static const image = 'assets/works/image.jpeg';
   static const computervision = 'assets/works/computervision.jpg';
   static const cv = 'assets/works/computer-vision.jpg';
+  static const mifos = 'assets/works/mifos.png';
 }

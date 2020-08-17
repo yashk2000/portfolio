@@ -16,6 +16,12 @@ final List<Project> projects = [
           'The project collects tweets from twitter in different languages using NLP. It was developed as a part of the FOSSASIA-UNESCO Hackathon, in Singapore, in which my team won the 2nd place in IBM-Cloud Category. It collects tweets related to natural disaster and translates them in the language desired by the user and alerts people instantly.',
       link: 'https://github.com/tweegenous'),
   Project(
+      name: 'Vision PPI',
+      image: Assets.mifos,
+      description:
+      'Vision PPI is a tool built using the Mifos APIs and Google\'s MLKit SDK for on-device machine learning to automatically fill PPI surveys.',
+      link: 'https://github.com/openMF/ppi-vision'),
+  Project(
       name: 'Kiwix',
       image: Assets.kiwix,
       description:

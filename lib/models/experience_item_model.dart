@@ -7,6 +7,7 @@ class Experience {
   final Color color;
   final bool active;
   final String description;
+  final String image;
 
   Experience(
       {this.jobTitle,
@@ -14,5 +15,6 @@ class Experience {
         this.date,
         this.color,
         this.active,
-        this.description});
+        this.description,
+        this.image});
 }
