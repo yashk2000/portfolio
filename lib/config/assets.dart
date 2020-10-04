@@ -23,4 +23,9 @@ class Assets {
   static const computervision = 'assets/works/computervision.jpg';
   static const cv = 'assets/works/computer-vision.jpg';
   static const mifos = 'assets/works/mifos.png';
+  static const arPaint = 'assets/works/arpaint.png';
+  static const cctv = 'assets/works/cctv.jpeg';
+  static const dexify = 'assets/works/dexify.png';
+  static const lorax = 'assets/works/lorax.png';
+  static const hh = 'assets/works/hh.jpeg';
 }

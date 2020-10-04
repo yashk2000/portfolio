@@ -14,9 +14,16 @@ final List<Experience> experiences = [
           '- Part of the Content Writing team\n\n'
           '- Helped in organizing several events\n\n'),
   new Experience(
+      jobTitle: 'Major League Hacking(MLH)',
+      company: 'Fellow',
+      date: 'September\'20 to Present',
+      color: Colors.indigo,
+      active: true,
+      description: 'I was selected as an MLH(Major League Hacking) Fellow. I will be working on making new projects and experimenting with new technologies by collaborating in small groups on a series of short hackathon sprints\n\n'),
+  new Experience(
       jobTitle: 'Google Summer of Code',
       company: 'Student Developer',
-      date: 'May\'20 to Aug\'20',
+      date: 'May\'20 to Sept\'20',
       color: Colors.greenAccent,
       active: true,
       description: 'My proposal, "Computer Vision Based PPI Tool Version 2.0", under the Mifos Initiative was accepted for Google Summer of Code 2020. Over the summer I worked on training models to accurately detect and classify objects in household environments and build an Android app to leverage Google\'s MLKit SDK to use the trained models and automatically fill PPI surveys\n\n'),
