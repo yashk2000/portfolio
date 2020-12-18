@@ -28,4 +28,10 @@ class Assets {
   static const dexify = 'assets/works/dexify.png';
   static const lorax = 'assets/works/lorax.png';
   static const hh = 'assets/works/hh.jpeg';
+  static const mentored = 'assets/works/mentored.png';
+  static const kitn = 'assets/works/kitn.png';
+  static const ss = 'assets/works/ss.png';
+  static const gitgo = 'assets/works/gitgo.png';
+  static const hm = 'assets/works/hm.jpg';
+  static const navft = 'assets/works/navft.jpeg';
 }

@@ -17,10 +17,64 @@ final List<Project> projects = [
       image: Assets.hh,
       description:
           'This application aims to bridge the gap between them and the visual world by leveraging the power of Deep Learning which can be made accessible even on low-ended devices with a lucid User-Interface that would exactly allow them to better understand the world around.',
-      link: 'https://github.com/HarshCasper/HelpingHand',
-      type: "MLH Fellowship Project: Sprint 1, Open ended",
+      link: 'https://github.com/yashk2000/HelpingHand',
+      type: "MLH Fellowship Project: Sprint 0, Open ended",
       techStack:
           "Flutter, dart, python, tensorflow, keras, microsoft image captioning API, Rest APIs, flask"),
+  Project(
+      name: 'Mentored',
+      image: Assets.mentored,
+      description:
+          'Mentored intends to be a single, unified platform for people new to the technology and software development to find curated, high-quality resources for their topics of interest from industry experts and real software developers.',
+      link: 'https://github.com/yashk2000/Mentored',
+      type: "MLH Fellowship Project: Sprint 1, Education",
+      techStack:
+          "react, django, postgresql"),
+  Project(
+      name: 'Knight In the Night',
+      image: Assets.kitn,
+      description:
+          'This is a Halloween Themed game developed using the Godot Game engine.',
+      link: 'https://yashk2000.github.io/KnightInTheNight/',
+      type: "MLH Fellowship Project: Sprint 2, Gaming",
+      techStack:
+          "Gofot Game Engine"),
+  Project(
+      name: 'Sneaky Sketchers',
+      image: Assets.ss,
+      description:
+          'A desktop app for the research paper \"“Image Inpainting for Irregular Holes Using Partial Convolutions\” by NVIDIA.',
+      link: 'https://github.com/yashk2000/SneakySketchers',
+      type: "MLH Fellowship Project: Sprint 3, AI/ML/Data Science",
+      techStack:
+          "Python, PyTorch, PyQt5, OpenCV, Jupyter Notebooks"),
+  Project(
+      name: 'gitg0',
+      image: Assets.gitgo,
+      description:
+          'An npm package that auto-suggests branch and commit titles, and also ensures that the commit guidelines for a project are followed.',
+      link: 'https://github.com/yashk2000/gitg0',
+      type: "MLH Fellowship Project: Sprint 4, Developer Tools",
+      techStack:
+          "JavaScript"),
+  Project(
+      name: 'Health Monitor',
+      image: Assets.hm,
+      description:
+          'A remote health monitoring project which involved the implementation of two IEEE Research papers to measure the heart rate and SpO2 levels of an individual using images captured by a camera.',
+      link: 'https://github.com/yashk2000/HealthMonitor',
+      type: "MLH Fellowship Project: Sprint 5, Social Good",
+      techStack:
+          "JavaScript, React, Django, Flutter, postgresql"),
+  Project(
+      name: 'NavFT',
+      image: Assets.navft,
+      description:
+          'A tool to automate vehicle fitness tests.',
+      link: 'https://github.com/Fireboltz/NAV-FT',
+      type: "IEEE GovTechThon2020: Project judged as Runners Up",
+      techStack:
+          "Flutter, Jupyter Notebook, fast.ai, PyTorch, OpenCV"),
   Project(
       name: 'Dexify',
       image: Assets.dexify,
@@ -43,7 +97,7 @@ final List<Project> projects = [
       description:
           'An android application that leverages Google\'s ARCore SDK to allow a user to draw whatever they want on their camera feed along with a few extra editing options.',
       link: 'https://github.com/yashk2000/ARPaint',
-      type: "MLH Fellowship Project: Sprint 1, Open ended",
+      type: "Personal Project",
       techStack: "Java, Android, Augmented Reality using Google ARCore SDK"),
   Project(
       name: 'Tweegenous',

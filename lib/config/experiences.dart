@@ -16,10 +16,16 @@ final List<Experience> experiences = [
   new Experience(
       jobTitle: 'Major League Hacking(MLH)',
       company: 'Fellow',
-      date: 'September\'20 to Present',
+      date: 'September\'20 to December\'20',
       color: Colors.indigo,
       active: true,
-      description: 'I was selected as an MLH(Major League Hacking) Fellow. I will be working on making new projects and experimenting with new technologies by collaborating in small groups on a series of short hackathon sprints\n\n'),
+      description: 'I was selected as an MLH(Major League Hacking) Fellow. I will be working on making new projects and experimenting with new technologies by collaborating in small groups on a series of short hackathon sprints\n\n'
+      '- Sprint 0: Developed a project called HelpingHand to help visually impaired people percieve the world around them better. This project won the first prize in that sprint\n\n'
+      '- Sprint 1: The theme of the sprint was Education. I worked on a project called Mentored. Mentored intends to be a single, unified platform for people new to the technology and software development to find curated, high-quality resources for their topics of interest from industry experts and real software developers. This platform is built to facilitate real learning with mentorship, allowing mentees to find mentors to learn skills and build up their portfolio. This project won the third prize for this sprint\n\n'
+      '- Sprint 2: The theme of this sprint was gaming, and I worked on making a game using Godot called Knight In the Night. You can checkout the game over here: https://yashk2000.github.io/KnightInTheNight/. This project won the third prize in this sprint.\n\n'
+      '- Sprint 3: This sprint\'s theme was AI/ML/Data Science. I worked on implementing a desktop app for the research paper \"“Image Inpainting for Irregular Holes Using Partial Convolutions\” by NVIDIA. This project won the second prize in this sprint.\n\n'
+      '- Sprint 4: The theme for this sprint was developer tools. I worked on a project called gitg0 which is deployed as an npm package. The tool auto-suggests branch and commit titles, and also ensures that the commit guidelines for a project are followed.\n\n'
+      '- Sprint 5: This was the final sprint with the theme Social Good. I worked on building a remote health monitoring project which involved the implementation of two IEEE Research papers to measure the heart rate and SpO2 levels of an individual using images captured by a camera.\n\n'),
   new Experience(
       jobTitle: 'Google Summer of Code',
       company: 'Student Developer',
