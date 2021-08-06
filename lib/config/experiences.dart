@@ -8,11 +8,35 @@ final List<Experience> experiences = [
       date: 'Since Jul\'18',
       color: Colors.orange,
       active: true,
-      description: '- Organized several events\n\n'
-          '- Mobile Application Developer\n\n'
-          '- Studying Computer Vision\n\n'
-          '- Part of the Content Writing team\n\n'
-          '- Helped in organizing several events\n\n'),
+      description: 'amFOSS is the Free and Open Source Software club of my college. I am an active member and also mentor my juniors and get them exposed to new technologies and open source as well. I help manage the day to day club activities, along with managing our social media campaigns, organizing events, working on technical projects, helping manage the community overall. \n\n'),
+  new Experience(
+      jobTitle: 'University Of California, Santa Cruz',
+      company: 'Research Intern',
+      date: 'June\'21 to Present',
+      color: Colors.red,
+      active: true,
+      description: 'I am working under Professor David Lee on using AI, particularly reinforcement learning to analyze economic situations for an apprenticeship learning setting. My research involves understanding how to create an economic system that provides opportunities for learning and upskilling, and finding out the tensions/paradoxes that arise in trying to achieve that goal while also trying to compete in the marketplace and increasing productivity. I am leading a team of 4 members for this project and am working on creating an environment from scratch and developing the RL algorithms. \n\n'),        
+  new Experience(
+      jobTitle: 'Semiconductor Research Corporation',
+      company: 'Research Scholar',
+      date: 'August\'21 to Present',
+      color: Colors.lightGreenAccent,
+      active: true,
+      description: 'I am associated with the SRP project: Designing Efficient Hardware Accelerators for Autonomous Driving Vehicles (ADVs). This project is led by Professor Sparsh Mittal from IIT Roorkee. This is in conjunction with my work at IIT Roorkee and involves making neural networks used in ADVs robust to any form of adversarial attacks. \n\n'),        
+  new Experience(
+      jobTitle: 'Indian Institute of Technology, Roorkee',
+      company: 'Research Intern',
+      date: 'April\'21 to Present',
+      color: Colors.deepPurple,
+      active: true,
+      description: 'I am working under Professor Sparsh Mittal on analysing the security aspects of deep neural networks, how to attack them, both in a targeted as well as non targeted manner, understand how various attack techniques work and affect deep neural networks. I am researching on solutions to improve the accuracy of attacked networks, prevent the attack from affecting the network too much itself, as well as coming up with new attack techniques. \n\n'),
+  new Experience(
+      jobTitle: 'Amrita Institute of Medical Sciences',
+      company: 'Bachelor\'s Thesis Research',
+      date: 'April\'21 to Present',
+      color: Colors.lightGreenAccent,
+      active: true,
+      description: 'I am working with Professor Gilad Gressel, and Dr. Priya Nair from AIMS on AI assisted endoscopic-ultrasound(EUS). I am working creating an end-to-end pipeline, from preparing a dataset, training models, to creating an end-user application. Models trained by me for station classification in EUS have achieved an accuracy of 98.5%. I am currently working on training models for the next part of the project which is cancer detection. The project is currently under progress. \n\n'),
   new Experience(
       jobTitle: 'Major League Hacking(MLH)',
       company: 'Fellow',
@@ -33,13 +57,6 @@ final List<Experience> experiences = [
       color: Colors.greenAccent,
       active: true,
       description: 'My proposal, "Computer Vision Based PPI Tool Version 2.0", under the Mifos Initiative was accepted for Google Summer of Code 2020. Over the summer I worked on training models to accurately detect and classify objects in household environments and build an Android app to leverage Google\'s MLKit SDK to use the trained models and automatically fill PPI surveys\n\n'),
-  new Experience(
-      jobTitle: 'AI Singapore Summer School',
-      date: 'Aug 2020',
-      color: Colors.redAccent,
-      active: false,
-      description:
-      'I was selected for the AI Summer School 2020 hosted by AI Singapore. Over the course, I learned about Reinforcement Learning,Federation Learning, AI in education and healthcare and much more on how to pursue a research oriented career in this field\n\n'),
   new Experience(
       jobTitle: 'Instruments Research and Development Establishment(IRDE)',
       company: 'Intern',
