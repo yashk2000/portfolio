@@ -34,4 +34,7 @@ class Assets {
   static const gitgo = 'assets/works/gitgo.png';
   static const hm = 'assets/works/hm.jpg';
   static const navft = 'assets/works/navft.jpeg';
+  static const bfa = 'assets/works/bfa.jpeg';
+  static const vit = 'assets/works/vit.jpeg';
+  static const eus = 'assets/works/eus.jpeg';
 }

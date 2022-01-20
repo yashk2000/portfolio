@@ -27,6 +27,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xFFFFFF),
         actions: <Widget>[
           IconButton(
             icon: ThemeSwitcher.of(context).isDarkModeOn

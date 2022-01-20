@@ -10,7 +10,6 @@ class ExperienceMainPage extends StatefulWidget {
 }
 
 class _ExperienceMainPageState extends State<ExperienceMainPage> {
-
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
@@ -53,7 +52,8 @@ class _ExperienceMainPageState extends State<ExperienceMainPage> {
               'Experiences',
               style: new TextStyle(fontSize: 24.0),
             ),
-            new Text('Student at Amrita Vishwa Vidyapeetham, 2018-2022\n\n',
+            new Text(
+                'Doing research in secure ML, simulating economy using RL, AI for Healthcare and more\n\n',
                 style: new TextStyle(color: Colors.grey, fontSize: 18.0))
           ],
         ));

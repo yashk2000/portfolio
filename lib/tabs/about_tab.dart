@@ -32,29 +32,13 @@ class AboutTab extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                'Member and mentor @amFOSS\nComputer Vision | Flutter | Android Developer',
+                'Secure and Robust ML | AI in Healthcare | Reinforcement Learning\nManaging communities, Mentor at amFOSS',
                 style: Theme.of(context).textTheme.caption,
                 textScaleFactor: 2,
                 textAlign: TextAlign.center,
               ),
               SizedBox(
                 height: 10,
-              ),
-              Center(
-                child: new InkWell(
-                    child: new Text(
-                      'Checkout my Curriculum Vitae',
-                      style: TextStyle(
-                        color: Colors.blue,
-                        fontSize: 16,
-                        //fontWeight: FontWeight.bold,
-                        fontFamily: 'OpenSans',
-                      ),
-                      textScaleFactor: 2,
-                      textAlign: TextAlign.center,
-                    ),
-                    onTap: () =>
-                        launch('https://yashk2000.github.io/docs/cv.pdf')),
               ),
               SizedBox(
                 height: 30,
@@ -83,9 +67,7 @@ class AboutTab extends StatelessWidget {
                   ),
                   FlatButton.icon(
                     icon: SizedBox(
-                        width: 20,
-                        height: 20,
-                        child: Image.asset(Assets.blog)),
+                        width: 20, height: 20, child: Image.asset(Assets.blog)),
                     label: Text('Blog'),
                     onPressed: () =>
                         html.window.open(Constants.PROFILE_BLOG, 'yash2k'),

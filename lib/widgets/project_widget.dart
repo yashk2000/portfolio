@@ -51,7 +51,7 @@ class ProjectWidget extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(_project.name,
-                          style: Theme.of(context).textTheme.title),
+                          style: Theme.of(context).textTheme.headline5),
                       SizedBox(
                         height: height * .01,
                       ),
@@ -91,7 +91,7 @@ class ProjectWidget extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(_project.name,
-                          style: Theme.of(context).textTheme.title),
+                          style: Theme.of(context).textTheme.headline5),
                       SizedBox(
                         height: height * .01,
                       ),

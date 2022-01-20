@@ -4,13 +4,39 @@ import 'assets.dart';
 
 final List<Project> projects = [
   Project(
+      name: 'Robustness of ViTs',
+      image: Assets.vit,
+      description:
+          'Vision transformers (ViT) are an attention model with results at par with CNNs. Given this, the robustness of ViTs to adversarial attacks needs to be considered before deployment in safety critical applications such as autonomous driving or healthcare.',
+      link: '',
+      type:
+          "Research Project with members of the amFOSS Research team (under progress)",
+      techStack: "Python, PyTorch, OpenCV"),
+  Project(
+      name: 'Adversarial Weight Attacks',
+      image: Assets.bfa,
+      description:
+          'The security of DNNs is important to their increasing ubiquity in security-critical domains. This project presents novel bit-flip attacks, along with defence techniques against such attacks.',
+      link: 'https://bit.ly/3IosVHQ',
+      type: "Research Project with Prof. Sparsh Mittal at IIT Roorkee",
+      techStack: "Python, PyTorch, OpenCV, LaTex"),
+  Project(
+      name: 'EUS-ML',
+      image: Assets.eus,
+      description:
+          'An AI-Assisted System for detecting pancreatic cancer. This tool not only helps detect cancer, but also helps train EUS(Endoscopic Ultrasound) experts faster, a process that takes 5-6 years currently.',
+      link: '',
+      type:
+          "Bachelor's Thesis Project in collaboration with Amrita Institute of Medical Sciences.",
+      techStack: "Python, PyTorch, Neptune, Optuna, OpenCV"),
+  Project(
       name: 'Psychic CCTV',
       image: Assets.cctv,
       description:
-      'A standalone application with the capability to do analysis on Security Footage and to provide a easy and better insight of the details of the content using object detection, sound source separation and super resolution.',
+          'A standalone application with the capability to do analysis on Security Footage and to provide a easy and better insight of the details of the content using object detection, sound source separation and super resolution.',
       link: 'https://github.com/Fireboltz/Psychic-CCTV',
       type:
-      "Personal Project which is still under development. It was built as a part of the PyTorch Summer Hackathon 2020.",
+          "Personal Project which is still under development. It was built as a part of the PyTorch Summer Hackathon 2020.",
       techStack: "Python, PyTorch, PySimpleGUI, PySimpleGUIQt, yolo"),
   Project(
       name: 'Helping Hands',
@@ -28,8 +54,7 @@ final List<Project> projects = [
           'Mentored intends to be a single, unified platform for people new to the technology and software development to find curated, high-quality resources for their topics of interest from industry experts and real software developers.',
       link: 'https://github.com/yashk2000/Mentored',
       type: "MLH Fellowship Project: Sprint 1, Education",
-      techStack:
-          "react, django, postgresql"),
+      techStack: "react, django, postgresql"),
   Project(
       name: 'Knight In the Night',
       image: Assets.kitn,
@@ -37,8 +62,7 @@ final List<Project> projects = [
           'This is a Halloween Themed game developed using the Godot Game engine.',
       link: 'https://yashk2000.github.io/KnightInTheNight/',
       type: "MLH Fellowship Project: Sprint 2, Gaming",
-      techStack:
-          "Gofot Game Engine"),
+      techStack: "Gofot Game Engine"),
   Project(
       name: 'Sneaky Sketchers',
       image: Assets.ss,
@@ -46,8 +70,7 @@ final List<Project> projects = [
           'A desktop app for the research paper \"“Image Inpainting for Irregular Holes Using Partial Convolutions\” by NVIDIA.',
       link: 'https://github.com/yashk2000/SneakySketchers',
       type: "MLH Fellowship Project: Sprint 3, AI/ML/Data Science",
-      techStack:
-          "Python, PyTorch, PyQt5, OpenCV, Jupyter Notebooks"),
+      techStack: "Python, PyTorch, PyQt5, OpenCV, Jupyter Notebooks"),
   Project(
       name: 'gitg0',
       image: Assets.gitgo,
@@ -55,8 +78,7 @@ final List<Project> projects = [
           'An npm package that auto-suggests branch and commit titles, and also ensures that the commit guidelines for a project are followed.',
       link: 'https://github.com/yashk2000/gitg0',
       type: "MLH Fellowship Project: Sprint 4, Developer Tools",
-      techStack:
-          "JavaScript"),
+      techStack: "JavaScript"),
   Project(
       name: 'Health Monitor',
       image: Assets.hm,
@@ -64,17 +86,14 @@ final List<Project> projects = [
           'A remote health monitoring project which involved the implementation of two IEEE Research papers to measure the heart rate and SpO2 levels of an individual using images captured by a camera.',
       link: 'https://github.com/yashk2000/HealthMonitor',
       type: "MLH Fellowship Project: Sprint 5, Social Good",
-      techStack:
-          "JavaScript, React, Django, Flutter, postgresql"),
+      techStack: "JavaScript, React, Django, Flutter, postgresql"),
   Project(
       name: 'NavFT',
       image: Assets.navft,
-      description:
-          'A tool to automate vehicle fitness tests.',
+      description: 'A tool to automate vehicle fitness tests.',
       link: 'https://github.com/Fireboltz/NAV-FT',
       type: "IEEE GovTechThon2020: Project judged as Runners Up",
-      techStack:
-          "Flutter, Jupyter Notebook, fast.ai, PyTorch, OpenCV"),
+      techStack: "Flutter, Jupyter Notebook, fast.ai, PyTorch, OpenCV"),
   Project(
       name: 'Dexify',
       image: Assets.dexify,
@@ -87,7 +106,7 @@ final List<Project> projects = [
       name: 'cms-mobile',
       image: Assets.cms,
       description:
-          'cms-mobile is a flutter application for the amFOSS CMS. Club members can login into the Club Management System and view club attendance, their profile and status updates(daily emails) for which data is fetched using the CMS APIs which were also made by amFOSS members itself. Features like notifications for meetings, events, work tracker ,etc are also present.',
+          'A flutter application for the amFOSS CMS. Club members can view attendance, their profile and work updates - fetched using the CMS APIs which were also built in-house. Includes features like notifications for meetings, events, work tracker, etc.',
       link: 'https://gitlab.com/amfoss/cms-mobile',
       type: "Open Source Project under my community, amFOSS.",
       techStack: "Flutter, Dart, graphQL"),
@@ -103,9 +122,10 @@ final List<Project> projects = [
       name: 'Tweegenous',
       image: Assets.tweegenous,
       description:
-          'The project collects tweets from twitter in different languages using NLP. It was developed as a part of the FOSSASIA-UNESCO Hackathon, in Singapore, in which my team won the 2nd place in IBM-Cloud Category. It collects tweets related to natural disaster and translates them in the language desired by the user and alerts people instantly.',
+          'The project was developed during the FOSSASIA-UNESCO Hackathon in which my team won the 2nd place in IBM-Cloud Category. It collects tweets related to natural disaster and translates them in the native language of a user and alerts people instantly.',
       link: 'https://github.com/tweegenous',
-      type: "Hackathon Project",
+      type:
+          "Hackathon Project - FOSSASIA-UNESCO Hackathon, Singapore, March 2019. 2nd Place.",
       techStack: "Jupyter Notebook, IBM Watson Services, Javascript"),
   Project(
       name: 'Vision PPI',
@@ -147,9 +167,10 @@ final List<Project> projects = [
       name: 'Lorax',
       image: Assets.lorax,
       description:
-      'A flutter application to encourage users to plant trees and keep track of their growth. The app also gives a user daily personalized notifications based on the tree a user would be growing.',
+          'A flutter application to encourage users to plant trees and keep track of their growth. The app also gives a user daily personalized notifications based on the tree a user would be growing.',
       link: 'https://github.com/ashwinkey04/lorax',
-      type: "Personal project developed along with a group of members from my community, amFOSS.",
+      type:
+          "Personal project developed along with a group of members from my community, amFOSS.",
       techStack: "Flutter, dart, Rest APIs, Firebase"),
   Project(
       name: 'Wikimedia Commons App',
@@ -164,7 +185,7 @@ final List<Project> projects = [
       name: 'Temple App',
       image: Assets.templeapp,
       description:
-          'This app is a cost-efficient way of maintaining records of poojas, donations made by people and also all the financial records in temples. Using this app, people in the temple counter will be able to enter all the details regarding the poojas they want or some donations they want to do for the temple. This app is connected to a printer so that it will print the details of pooja registrations of users.',
+          'This app is a cost-efficient way of maintaining records of poojas, donations made by people and also all the financial records in temples. This app is connected to a printer so that it will print the details of pooja registrations of users.',
       link: 'https://github.com/amfoss/TempleApp',
       type:
           "Open source project under amFOSS which I helped build and is deployed accross a few temples in Kerala.",
